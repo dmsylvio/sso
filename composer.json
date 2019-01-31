@@ -1,0 +1,21 @@
+{
+    "name": "dmsylvio/soo",
+    "description": "Connect Yii 2 application to a Identity Provider for Single Sign On",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sso","single sign on"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "silvio.neto",
+            "email": "silvio.neto@inmet.gov.br"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\vendor\\dmsylvio\\sso\\": ""
+        }
+    }
+}
