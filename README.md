@@ -1,4 +1,4 @@
-yii2 Sso
+yii2 SSO
 ========
 Connect Yii 2 application to a Identity Provider for Single Sign On
 
