@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist dmsylvio/sso "dev-master"
+composer require --prefer-dist dmsylvio/sso "dev-master"
 ```
 
 or add
@@ -88,7 +88,7 @@ This is an example in the login method from the module dmsylvio/yii2-accounts.
             'verbs' => [
                 'class' => VerbFilter::class,
                 'actions' => [
-                    'logout' => ['post'],
+                    'delete' => ['post'],
                 ],
             ],
         ];
